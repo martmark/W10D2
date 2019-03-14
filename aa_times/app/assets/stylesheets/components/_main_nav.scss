@@ -56,3 +56,9 @@
 	// font-size: 11px;
 	// text-align:
 }
+
+@media all and (max-width: 1000px) {
+  .right-nav ul li button {
+    display: none;
+  }
+}

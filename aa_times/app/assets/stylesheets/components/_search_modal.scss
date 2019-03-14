@@ -1,0 +1,33 @@
+.overlay {
+//   // display: flex;
+//   justify-content: center;
+
+    position: absolute;
+    width: 100vw;
+    // left: 50%;
+    // margin: auto;
+    
+    left: calc(-50vw + 50%);
+    border: 1px solid red;
+    background: white; 
+    height: max-height;
+    opacity: .6;
+    
+    box-shadow: inset 2px 3px 3px rgba(0,0,0,0.07);
+}
+
+.overlay-form {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    // padding: 20px;
+}
+
+.overlay button {
+  background: white;
+  color: gray;
+}
+.input {
+    width: 200px;
+    border: 1px solid $gray;
+}

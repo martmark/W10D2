@@ -1,0 +1,102 @@
+.sign-up {
+  clear: both;
+}
+
+.byline {
+  font-family: $serif;
+  font-weight: 400;
+  color: $gray;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.video iframe{
+  width: 100%;
+  height: 310px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.opinions {
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+h1.title {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.col h3 {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.thumbnail {
+  height: 100px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+ul.article-list {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 10px;
+}
+
+.article-list li {
+  padding: 4px 0;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.links {
+  font-family: $sans-serif;
+  position: relative;
+  right: 13px;
+}
+
+.links:hover {
+  text-decoration: underline;
+  color: $blue;
+}
+
+.sign-up {
+    font-family: $sans-serif;
+    color: $gray;
+    font-size: 10px;
+}
+
+.sign-up p {
+    text-align: center;
+    width: 90%;
+}
+
+.sign-up-email {
+    width: 75%;
+    border: 1px solid $gray;
+    padding: 3px;
+    margin-right: -3px;
+    font-size: 12px;
+}
+
+p {
+    line-height: 17px;
+}
